@@ -18,6 +18,7 @@ button = WebDriverWait(browser, 12).until(
 button2 = browser.find_element(By.ID, "book").click()
 
 
+
 x_tap1 = browser.find_element(By.ID, "input_value")
 x_tap1_chacked = int(x_tap1.text)
 x = x_tap1_chacked
